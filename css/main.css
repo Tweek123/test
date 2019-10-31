@@ -1,0 +1,591 @@
+@font-face {
+    font-family: "MuseoSansCyrl";
+    src: url("../media/fonts/Museo-Sans-Cyr/Museo-Sans-Cyr/MuseoSansCyrl.otf") format("opentype");;
+   }
+
+@font-face {
+    font-family: "icomoon";
+    src: url("../media/fonts/icomoon/fonts/icomoon.ttf") format("opentype");;
+   }
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.home-page {
+    position: relative;
+    overflow: hidden;
+}
+.header {
+    box-sizing: border-box;
+    padding: 0px 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 89px;
+    max-width: 1060px;
+}
+
+.header__logo {
+    float: left;
+    font-family: 'icomoon';
+}
+
+.header__button-login {
+    margin-left: auto;
+}
+
+.header__menu {
+    margin: 0 auto;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__menu-item {
+    cursor: pointer;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.header__logo {
+    min-width: 122px;
+    margin-right: 20px;
+    height: 40px;
+    background: url(../media/images/logo.svg) no-repeat center center;
+}
+
+.header__menu-item {
+    cursor: pointer;
+    list-style-type: none;
+    margin-right: 40px;
+    font-weight: 700;
+}
+
+.header__menu-item-text {
+    font-family: 'MuseoSansCyrl';
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.title {
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+    padding-top: 104px;
+    height: 360px;
+    background: #F2F3F8;
+}
+
+.title__text {
+    
+    font-weight: bold;
+    text-align: center;
+    font-family: 'MuseoSansCyrl';
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.header__logo {
+    cursor: pointer;
+    font-family: 'icomoon' !important;
+}
+
+.header__button-login {
+    cursor: pointer;
+    text-decoration: upper-case;
+}
+
+.header__button-login {
+    font-family: 'MuseoSansCyrl';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background: #039BE6;
+    border-radius: 50px;
+}
+
+.help {
+    padding: 0 40px;
+    display: flex;
+    box-sizing: border-box; 
+    margin: 0 auto;
+    position: absolute;
+    max-width: 690px;
+    left: 0;
+    right: 0;
+    top: 370px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px rgba(29, 29, 57, 0.2);
+}
+
+.help__find-text {
+    font-family: 'MuseoSansCyrl';
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.help__find {
+    padding: 45px 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 396px;
+}
+
+.help__col-write-brief {
+    cursor: pointer;
+    width: 189px;
+    height: 60px;
+    border: none;
+    margin-bottom: 18px;
+    font-family: 'MuseoSansCyrl';
+    font-size: 14px;
+    line-height: 26px;
+    background: #03973D;
+    border-radius: 50px;
+    background: #03973D;
+    color: white;
+    font-weight: 500;
+}
+
+.help__get-сons-link {
+    color: #039BE6;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.help__get-cons {
+    padding: 38px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.help::after {
+   position: absolute;
+   right: -32px;
+   top: 137px;
+   height: 44px;
+   width: 40px;
+   content: "";
+   background-image: url("../media/images/border.svg");
+   background-repeat: no-repeat;
+ }
+
+ .advertising {
+    padding: 0 50px;
+    box-sizing: border-box;
+    padding-top: 275px;
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+
+ .advertising__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ .advertising__col {
+     margin-right: 60px;
+     max-width: 340px;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .advertising__col:nth-last-child(1) {
+     margin-right: 0px;
+ }
+
+.advertising__col-icon {
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-family: "icomoon";
+    color: green;
+}
+
+.imac::before {
+    content: "\e90f";
+
+}
+
+.student::before {
+    content: "\e913";
+}
+
+
+
+
+.stats::before {
+    content: "\e912";
+}
+
+.advertising__col-text {
+    font-family: 'MuseoSansCyrl';
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.advertising__col-headline {
+    font-family: 'MuseoSansCyrl';
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.advertising__headline {
+    font-family: 'MuseoSansCyrl';
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 80px;
+    
+}
+
+.analytics {
+    padding: 180px 50px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.analytics__monitor {
+    margin-right: 40px;
+    float: left;
+    width: 395px;
+    height: 350px;
+    background-size: 395px 350px;
+    background-position: center center;
+    background: url(../media/images/monitor.svg) no-repeat center center;
+}
+.analystics__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.analystics__content-headline {
+    margin-bottom: 60px;
+    font-family: 'MuseoSansCyrl';
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.analystics__content-text {
+
+    margin-bottom: 40px;
+    font-family: 'MuseoSansCyrl';
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.analystics__content-row {
+    max-width: 420px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.analystics__content-button-bief {
+    float: left;
+    cursor: pointer;
+    width: 189px;
+    height: 60px;
+    border: none;
+    font-family: 'MuseoSansCyrl';
+    font-size: 14px;
+    line-height: 26px;
+    background: #03973D;
+    border-radius: 50px;
+    background: #03973D;
+    color: white;
+    font-weight: 500;
+}
+
+.analystics__content-cons-link {
+    font-family: 'MuseoSansCyrl';
+    color: #039BE6;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+
+.analystics__content {
+    margin-left: auto;
+    max-width: 560px;
+}
+
+.promotions-wrapper {
+    background: #F2F3F8;
+}
+
+.promotions {
+    display: flex;
+    flex-direction: row;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 120px 50px;
+}
+
+.promotions__free-start-headline {
+    font-family: "MuseoSansCyrl";
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+
+.promotions__free-start {
+    margin-right: 105px;
+    position: relative;
+    max-width: 365px;
+}
+
+.promotions__col-button-bief {
+    font-family: "MuseoSansCyrl";
+    font-size: 36px;
+    line-height: 48px;
+    cursor: pointer;
+    width: 189px;
+    height: 60px;
+    border: none;
+    font-family: 'MuseoSansCyrl';
+    font-size: 14px;
+    line-height: 26px;
+    background: #03973D;
+    border-radius: 50px;
+    background: #03973D;
+    color: white;
+    font-weight: 500;
+}
+
+
+.promotions__for-clients {
+    margin-right: 146px;
+    position: relative;
+    max-width: 284px;
+}
+
+.promotions__for-clients-text {
+    font-family: "MuseoSansCyrl";
+    font-size: 16px;
+    line-height: 28px;
+} 
+
+.promotions__balance {
+    max-width: 240px;
+}
+
+.promotions__balance-text {
+    font-family: "MuseoSansCyrl";
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.promotions__for-clients:after {
+    position: absolute;
+    right: -87px;
+    top: 0px;
+    margin: auto;
+    bottom: 0px;
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: url(../media/images/arrow-line.svg) no-repeat center center;
+}
+
+.promotions__free-start:after {
+    position: absolute;
+    right: -179px;
+    top: -201px;
+    margin: auto;
+    bottom: 0px;
+    content: '';
+    width: 284.43px;
+    height: 91.32px;
+    background: url(../media/images/arrow-round.svg) no-repeat left top;
+}
+
+.footer-wrapper {
+    background: #222A35;
+}
+
+.footer {
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    max-width: 1140px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+.footer__links-left-item {
+    margin: 10px;
+    font-family: 'MuseoSansCyrl';
+    color: #039BE6;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.1);
+    padding-bottom: 60px;
+}
+
+.footer__links-right-item {
+    font-family: 'MuseoSansCyrl';
+    color: #039BE6;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer__links-left {
+    line-height: 4;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    width: 600px;
+}
+.footer__links-right {
+    margin: 10px;
+    position: relative;
+    margin-right: 180px;
+    margin-left: auto;
+}
+
+.footer__links-right::after {
+    font-size: 6px;
+    font-weight: 100;
+    color: #039BE6;
+    font-family: 'icomoon';
+    position: absolute;
+    right: -6px;
+    top: 4px;
+    content: "\e910"
+} 
+
+.footer__contacts {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px;
+}
+
+.footer__contacts-adresses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer__contacts-logo {
+    margin-right: 50px;
+    min-width: 50px;
+    height: 50px;
+    background: url(../media/images/lama-head.svg)
+}
+
+.footer__contacts-adress {
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.footer__contacts-adress-phone {
+    font-family: 'MuseoSansCyrl';
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F4F4;
+}
+
+.footer__contacts-adress-city {
+    font-family: "MuseoSansCyrl";
+    font-size: 14px;
+    line-height: 26px;
+    color: #828282;
+}
+
+.footer__cocntacts-requisites {
+    margin-right: 60px;
+}
+.footer__cocntacts-requisites-text {
+    font-family: 'MuseoSansCyrl';
+    font-size: 14px;
+    line-height: 26px;
+    color: #00B3FF;
+}
+
+.footer__contacts-media-link {
+    color: white;
+    font-family: "icomoon";
+    margin-right: 24px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.footer__contacts-media-links {
+    margin-left: auto;
+    line-height: 2;
+}
+
+.sharp:before {
+    content: "\e900";
+}
+
+.rss:before {
+    content: "\e911";
+}
+
+.facebook:before {
+    content: "\e901";
+}
+
+.twitter:before {
+    content: "\e914";
+}
+
+.vk:before {
+    content: "\e915";
+}
+
+.youtube:before {
+    content: "\e916";
+}
+
+.footer__copyright-text-left {
+    font-family: "MuseoSansCyrl";
+    font-size: 13px;
+    line-height: 24px;
+    color: #484B50;
+}
+
+.footer__copyright-text-right {
+    font-family: "MuseoSansCyrl";
+    font-size: 13px;
+    line-height: 24px;
+    text-align: right;
+    color: #00B3FF;
+}
+
+.footer__copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
